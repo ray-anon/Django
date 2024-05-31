@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary Report</title>
+</head>
+<body>
+    <h1>Summary Report</h1>
+    <div>
+        {{ summary|safe }}
+    </div>
+    <a href="{% url 'upload_file' %}">Upload another file</a>
+</body>
+</html>
